@@ -1,4 +1,4 @@
-class ZimNs < Formula
+class ZimWiki < Formula
   desc "Graphical text editor used to maintain a collection of wiki pages"
   homepage "https://zim-wiki.org/"
   url "https://github.com/jaap-karssenberg/zim-desktop-wiki/archive/0.72.1.tar.gz"
@@ -31,19 +31,4 @@ class ZimNs < Formula
     pkgshare.install "zim"
   end
 
-  # test do
-  #   ENV["LC_ALL"] = "en_US.UTF-8"
-  #   ENV["LANG"] = "en_US.UTF-8"
-
-  #   mkdir_p %w[Notes/Homebrew HTML]
-  #   # Equivalent of (except doesn't require user interaction):
-  #   # zim --plugin quicknote --notebook ./Notes --page Homebrew --basename Homebrew  --text "[[https://brew.sh|Homebrew]]"
-  #   File.write(
-  #     "Notes/Homebrew/Homebrew.txt",
-  #     "Content-Type: text/x-zim-wiki\nWiki-Format: zim 0.4\nCreation-Date: 2020-03-02T07:17:51+02:00\n\n[[https://brew.sh|Homebrew]]",
-  #   )
-  #   system "#{bin}/zim", "--index", "./Notes"
-  #   system "#{bin}/zim", "--export", "-r", "-o", "HTML", "./Notes"
-  #   system "grep", '<a href="https://brew.sh".*Homebrew</a>', "HTML/Homebrew/Homebrew.html"
-  # end
 end

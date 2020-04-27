@@ -5,8 +5,7 @@ Zim Version: 0.72.1
 
 ## Prerequesits
 
-* Homebrew
-* Homebrew Cask
+* [Homebrew](https://brew.sh/)
 
 ## Add tap
 

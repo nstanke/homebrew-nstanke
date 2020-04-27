@@ -23,7 +23,7 @@ class ZimWiki < Formula
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3.8/site-packages"
     resource("pyxdg").stage do
-      system "python", *Language::Python.setup_install_args(libexec/"vendor")
+      system "python3.8", *Language::Python.setup_install_args(libexec/"vendor")
     end
     ENV["XDG_DATA_DIRS"] = libexec/"share"
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3.8/site-packages"

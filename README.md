@@ -16,9 +16,19 @@ Zim Version: 0.72.1
 
 `brew install zim-wiki`
 
+Make sure to link Zim
+
+`brew link --overwrite zim-wiki`
+
 ## Install wrapper App
 
 `brew cask install zim-app`
+
+## Run Zim
+
+Zim should now be ready in your Applications folder.
+
+`open /Applications/Zim.app`
 
 ## Links
 

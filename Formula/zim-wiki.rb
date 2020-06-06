@@ -1,10 +1,10 @@
 class ZimWiki < Formula
   desc "Graphical text editor used to maintain a collection of wiki pages"
   homepage "https://zim-wiki.org/"
-  version "0.72.1"
-  url "https://github.com/jaap-karssenberg/zim-desktop-wiki/archive/0.72.1.tar.gz"
-  sha256 "ba02e418b4fb1d7847f96b49ada8c917c881a28bb5fb55dcdca54be7b3fd196a"
-  head "https://github.com/jaap-karssenberg/zim-desktop-wiki.git"
+  version "0.73.0"
+  url "https://github.com/zim-desktop-wiki/zim-desktop-wiki/archive/0.73.0.tar.gz"
+  sha256 "d99134a3f1031805ad4350ec7426e967940d53fb88f1eeba78d2bf1667fb310a"
+  head "https://github.com/zim-desktop-wiki/zim-desktop-wiki.git"
   
 
   depends_on "pkg-config" => :build

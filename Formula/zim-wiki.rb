@@ -12,6 +12,7 @@ class ZimWiki < Formula
   depends_on "graphviz"
   depends_on "gtk+3"
   depends_on "gtksourceview3"
+  depends_on "gtk-mac-integration"
   depends_on "pygobject3"
   depends_on "python@3.8"
 

@@ -1,7 +1,7 @@
 Homebrew: Zim Desktop Wiki
 ===========================
 
-Zim Version: 0.73.0
+Zim Version: 0.73.1
 
 ## Prerequesits
 
